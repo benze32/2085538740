@@ -44,8 +44,8 @@
         }
 
         .heart {
-            width: 100px;
-            height: 100px;
+            width: 200px;
+            height: 200px;
             position: relative;
             animation: heartbeat 10s infinite;
             transform-origin: center center;
@@ -55,23 +55,23 @@
         .heart:after {
             content: "";
             background-color: red;
-            border-radius: 5px 5px 0 0;
+            border-radius: 10px 10px 0 0;
             position: absolute;
             top: 0;
         }
 
         .heart:before {
-            left: 10px;
-            width: 10px;
-            height: 10px;
+            left: 100px;
+            width: 100px;
+            height: 100px;
             transform: rotate(-45deg);
             transform-origin: 0 100%;
         }
 
         .heart:after {
             left: 0;
-            width: 10px;
-            height: 10px;
+            width: 100px;
+            height: 100px;
             transform: rotate(45deg);
             transform-origin: 100% 100%;
         }
